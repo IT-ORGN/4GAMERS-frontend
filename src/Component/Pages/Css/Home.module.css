@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
+
+.gamerinterface{
+    position:static;
+    width: 160rem;
+    height: 52rem;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*margin-bottom: 20px;*/
+}
+.h1gamers{
+    font-family: 'Unbounded', cursive;
+    font-size: xx-large;
+    margin-left: 70px;
+    margin-top: 150px;
+}
+.h2gamers{
+    font-family: 'Unbounded', cursive;
+   font-size: x-large;
+    margin-left: 70px;
+    margin-top: 70px;
+} 
+.buttongamers{
+    position: absolute;
+    margin-left: 70px;
+    font-family: 'Unbounded', cursive;
+    margin-top: 50px;
+   /* padding: 7px;*/
+   width: 300px;
+   height:100px;
+    border: none;
+    border: 5px solid gray;
+    border-radius: 30px;
+    outline: none;
+}
+.img{
+    width: 700px;
+    height: 630px;
+    margin-left: 900px;
+    margin-top: -250px;
+}

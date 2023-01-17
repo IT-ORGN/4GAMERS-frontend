@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.bodyContact{
+  display: flex;
+  padding: 0 10px;
+  min-height: 60vh;
+  background: rgb(255, 253, 253);
+  
+  align-items: center;
+  justify-content: right;
+}
+::selection{
+  color: rgb(255, 253, 253);
+  background: #0D6EFD;
+}
+.logoContact{
+   
+    margin-right: 250px;
+    
+  
+}
+.imglogoContact{
+    width: 400px;
+    height: 500px;
+    margin-left: 70px;
+    
+}
+.wrapperContact{
+    margin-right: 70px;
+  width: 715px;
+  background: rgb(255, 253, 253);
+  border-radius: 5px;
+  
+}
+.wrapperContact header{
+  font-size: 22px;
+  font-weight: 600;
+  padding: 20px 30px;
+  border-bottom: 1px solid #ccc;
+}
+.wrapperContact form{
+  margin: 35px 30px;
+}
+.wrapperContact form.disabled{
+  pointer-events: none;
+  opacity: 0.7;
+}
+.bodyContact form .dbl_fieldContact{
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+.dbl_fieldContact .fieldContact{
+  height: 50px;
+  display: flex;
+  position: relative;
+  width: calc(100% / 2 - 13px);
+}
+.wrapperContact form i{
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  color: #ccc;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+.bodyContact form .fieldContact input,
+.bodyContact form .messageContact textarea{
+  width: 100%;
+  
+  height: 100%;
+  outline: none;
+  padding: 0 18px 0 48px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/*.input1{
+  
+}*/
+.fieldContact {
+  
+  width: 500px;
+}
+.fieldContact [input]{
+   margin-left:250px;
+}
+.fieldContact input::placeholder,
+.messageContact textarea::placeholder{
+  color: #ccc;
+}
+.fieldContact input:focus,
+.messageContact textarea:focus{
+  padding-left: 47px;
+  border: 2px solid #0D6EFD;
+}
+.fieldContact input:focus ~ i,
+.messageContact textarea:focus ~ i{
+  color: #0D6EFD;
+}
+.bodyContact form .messageContact{
+  position: relative;
+}
+.bodyContact form .messageContact i{
+  top: 30px;
+  font-size: 20px;
+}
+.bodyContact form .messageContact textarea{
+  min-height: 130px;
+  max-height: 230px;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 15px 20px 0 48px;
+}
+.bodyContact form .messageContact textarea::-webkit-scrollbar{
+  width: 0px;
+}
+.messageContact textarea:focus{
+  padding-top: 14px;
+}
+.bodyContact  form .button_areaContact{
+  margin: 25px 0;
+  display: flex;
+  align-items: center;
+}
+.button_areaContact button{
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 13px 25px;
+  background: #0D6EFD;
+  transition: background 0.3s ease;
+}
+.button_areaContact button:hover{
+  background: #025ce3;
+}
+.button_areaContact span{
+  font-size: 17px;
+  margin-left: 30px;
+  display: none;
+}
+@media (max-width: 600px){
+  .wrapperContact header{
+    text-align: center;
+  }
+  .wrapperContact form{
+    margin: 35px 20px;
+  }
+  .bodyContact form .dbl_fieldContact{
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .bodyContactform .dbl_fieldContact .fieldContact{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+  }
+  .bodyContactform .messageContact textarea{
+    resize: none;
+  }
+  .bodyContactform .button_areaContact{
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .button_areaContact button{
+    width: 100%;
+    padding: 11px 0;
+    font-size: 16px;
+  }
+  .button_areaContact span{
+    margin: 20px 0 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,207 @@
+/*.signup-boxLogin {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+  }
+  
+  .login-boxLogin {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+  }
+  
+  .signup-boxLogin h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .signup-boxLogin h4 {
+    text-align: center;
+  }
+  
+  .signup-boxLogin form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  .signup-boxLogin form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .signup-boxLogin form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  .signup-boxLogin input[type="button"] {
+    width: 100%px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+  }
+  .signup-boxLogin p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2Login {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2Login a {
+    color: #49c1a2;
+  }*/
+  .bg{
+
+    background-color: rgb(255, 250, 247);
+    
+  }
+  .imgLogin{
+    position:relative;
+    width: 450px;
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+  .signup_boxLogin {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    /*background-color: #fff;*/
+    margin-left: 50px;
+    margin-top: -500px;
+    margin-left: 550px;
+    border-right: 5px solid orange;
+    padding-right: 30px;
+    
+  }
+  
+  .login_boxLogin {
+    position:absolute;
+    width: 360px;
+    height: 350px;
+    margin: auto;
+    border-radius: 3px;
+    /*background-color: #fff;*/
+    border-radius: 3px;
+    margin-left: 1000px;
+    margin-top: -500px;
+    border-left: 5px solid orange;
+    
+  }
+  /*sign in*/
+  
+  .signup_boxLogin h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .signup_boxLogin h4 {
+    text-align: center;
+  }
+  
+  .signup_boxLogin form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  .signup_boxLogin form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .login_boxLogin form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  .login_boxLogin form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .signup_boxLogin form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  .signup_boxLogin input[type="button"] {
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #eb5a0c;
+    color: white;
+    font-size: 18px;
+  }
+  .signup_boxLogin p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  
+  /*sinup*/
+  .login_boxLogin h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .login_boxLogin h4 {
+    text-align: center;
+  }
+  
+  .login_boxLogin form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  .login_boxLogin form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .login_boxLogin form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  .login_boxLogin input[type="button"] {
+    width: 100%px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #eb5a0c;
+    color: white;
+    font-size: 18px;
+  }
+  .login_boxLogin p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  
+  
+  
+  
